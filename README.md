@@ -1,3 +1,21 @@
+---
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # We compared ScyllaDB and Memcached and… We lost?
 
 _ScyllaDB would like to publicly acknowledge and thank_ [_dormando_](https://www.dormando.me/) _(memcached maintainer) and_ [_Danny Kopping_](https://www.linkedin.com/in/dannykopping/) _for their contributions, support and patience (!!!) on which this work got inspired._
@@ -479,7 +497,7 @@ We were pleased to see ScyllaDB matching the numbers of the industry-recognized 
 \
 **Question:** Why not use YCSB, nosqlbench, memtier or \<add your favorite> instead?
 
-* Answer: Some of these tools are outdated (YCSB is a prime example of this) and/or may not follow each solution's best practices. We'll be happy to use your tool next time should you be able to prove it can attain similar or better results as we did with ours.
+* Answer: Some of these tools are outdated (YCSB is a prime example of this) and/or may not follow each solution's best practices. We'll be happy to use your tool next time should you be able to prove it can attain similar or better results as we did with ours..
 
 [^1]: Keep in mind that specially during tests maxing out the promised Network Capacity, we noticed [throttling shrinking down the bandwidth down to the instances' baseline capacity](https://twitter.com/dvassallo/status/1120758102985285633).
 
