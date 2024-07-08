@@ -32,7 +32,7 @@ If you already read the blog, skip ahead to the additional details added here:
 
 * [Setup/configuration details](./#setup)
 * [Extended discussion of tests and results](./#tests-and-results)
-* Q and A
+* [Q and A](./#q-and-a)
 
 ## Why have we done this?
 
