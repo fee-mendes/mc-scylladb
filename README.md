@@ -90,7 +90,7 @@ For ScyllaDB, we used [cassandra-stress](https://opensource.docs.scylladb.com/st
 
 ## Tests and Results
 
-**Note:** <mark style="color:purple;">For a summary of the tests and results, see the blog \<FIXME>.</mark>
+**Note:** <mark style="color:purple;">For a summary of the tests and results, see the blog:</mark> [<mark style="color:purple;">We Compared ScyllaDB and Memcached and... We Lost?</mark>](https://www.scylladb.com/2024/10/08/scylladb-and-memcached/)
 
 ScyllaDB and Memcached tests were split across two groups: In-Memory and On-Disk.
 
