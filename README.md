@@ -453,7 +453,7 @@ Both memcached and ScyllaDB managed to maximize the underlying hardware utilizat
 
 If your existing workload can accommodate a simple key-value model and it benefits from pipelining, then memcached should be more suitable to your needs. On the other hand, if the workload requires support for complex data models, then ScyllaDB is likely a better fit.
 
-Another reason for sticking with Memcached: it easily delivers traffic far beyond what a NIC can sustain. In fact, in [this HackerNews thread](https://news.ycombinator.com/item?id=17179348), dormando mentioned that he could scale it up past 55 million read ops/sec for a considerably larger server. Given that, you could make use of smaller and/or cheaper instance types to sustain a similar workload, provided the available memory and disk footprint suffice your workload needs.
+Another reason for sticking with Memcached: it easily delivers traffic far beyond what a NIC can sustain. In fact, in [this Hacker News thread](https://news.ycombinator.com/item?id=17179348), dormando mentioned that he could scale it up past 55 million read ops/sec for a considerably larger server. Given that, you could make use of smaller and/or cheaper instance types to sustain a similar workload, provided the available memory and disk footprint suffice your workload needs.
 
 A different angle to consider is the data set size. Even though Extstore provides great cost savings by allowing you to store items beyond RAM, there's a limit to how many keys can fit per GB of memory. Workloads with very small items should observe smaller gains compared to those with larger items. That’s not the case with ScyllaDB, which allows you to store billions of items irrespective of their sizes.
 
