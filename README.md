@@ -28,7 +28,7 @@ The results reveal that:
 
 * Both Memcached and ScyllaDB maximized disks and network bandwidth while being stressed under similar conditions, sustaining similar performance overall.
 * While ScyllaDB required data modeling changes to fully saturate the network throughput, Memcached required additional IO threads to saturate disk I/O.&#x20;
-* Although ScyllaDB showed better latencies when compared to Memcached pipelined requests to disk, Memcached latencies were better for individual requests.
+* Although ScyllaDB showed better latencies when compared to Memcached for pipelined requests to disk, Memcached latencies were better for individual requests.
 
 This document explains our motivation for these tests, provides a detailed look at the tested scenarios and results, then presents recommendations for anyone who might be deciding between ScyllaDB and Memcached. Along the way, we analyze the architectural differences behind these two solutions and discuss the tradeoffs involved in each.
 
